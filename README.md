@@ -18,13 +18,13 @@ First, there are a set of prerequisites you will need whether or not you are usi
 
 ### Configuring Your Environment Using Command Line Tools
 Aurelia CLI kommandoer:
-* 'au build –-env dev' (Bundler Debug build)
-* 'au build –-env prod' (Bundler Release build)
-* 'au run' (Debug Run http://localhost:8080)
-* 'au run --watch --env dev' (Debug and auto update browser, is something is changed on the server (.html or .js). http://localhost:8080)
-* 'au run –env prod (Release run http://localhost:8080)
-* 'au run --analyze --env dev (Show dependencies in Debug Bundle) 
-* 'au run --analyze --env prod (Show dependencies in Release Bundle)
+* `au build –-env dev` (Bundler Debug build)
+* `au build –-env prod` (Bundler Release build)
+* `au run` (Debug Run http://localhost:8080)
+* `au run --watch --env dev` (Debug and auto update browser, is something is changed on the server (.html or .js). http://localhost:8080)
+* `au run –env prod` (Release run http://localhost:8080)
+* `au run --analyze --env dev` (Show dependencies in Debug Bundle) 
+* `au run --analyze --env prod` (Show dependencies in Release Bundle)
 
 Or set dotnet environment:
 * If you are using PowerShell on Windows, execute `$Env:ASPNETCORE_ENVIRONMENT = "Development"`
