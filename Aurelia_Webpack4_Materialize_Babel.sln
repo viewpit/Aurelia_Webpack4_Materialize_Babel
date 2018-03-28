@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurelia_Webpack4_Materialize_Babel", "Aurelia_Webpack4_Materialize_Babel.csproj", "{541B9C77-55F4-4239-8CE5-D9A71FD77A40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{541B9C77-55F4-4239-8CE5-D9A71FD77A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541B9C77-55F4-4239-8CE5-D9A71FD77A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541B9C77-55F4-4239-8CE5-D9A71FD77A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541B9C77-55F4-4239-8CE5-D9A71FD77A40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A96F2D62-F94B-4349-B8BB-7A38A9DAEC2E}
+	EndGlobalSection
+EndGlobal
