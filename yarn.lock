@@ -24,6 +24,12 @@
   version "2.8.6"
   resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-2.8.6.tgz#14445b6a1613cf4e05dd61c3c3256d0e95c0421e"
 
+"@types/jquery@^3.3.0":
+  version "3.5.16"
+  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.5.16.tgz#632131baf30951915b0317d48c98e9890bdf051d"
+  dependencies:
+    "@types/sizzle" "*"
+
 "@types/node@^6.0.46":
   version "6.0.102"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-6.0.102.tgz#a6cf3b9843286b63eb362a8522bc382d96fe68d1"
@@ -39,6 +45,10 @@
 "@types/selenium-webdriver@^3.0.4":
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/@types/selenium-webdriver/-/selenium-webdriver-3.0.8.tgz#83de9dd7aaf25f7fbd967c0d4fcc8112746dbf31"
+
+"@types/sizzle@*":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@types/sizzle/-/sizzle-2.3.3.tgz#ff5e2f1902969d305225a047c8a0fd5c915cebef"
 
 JSONStream@^1.0.3, JSONStream@^1.3.2:
   version "1.3.2"
@@ -568,6 +578,15 @@ aurelia-binding@^1.0.0, aurelia-binding@^1.3.0, aurelia-binding@^1.7.1:
     aurelia-pal "^1.0.0"
     aurelia-task-queue "^1.0.0"
 
+aurelia-binding@^2.0.0, aurelia-binding@^2.5.2:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/aurelia-binding/-/aurelia-binding-2.5.4.tgz#c1c9221dd351bbf749df5e71aedc29b993a9ada0"
+  dependencies:
+    aurelia-logging "^1.0.0"
+    aurelia-metadata "^1.0.0"
+    aurelia-pal "^1.0.0"
+    aurelia-task-queue "^1.0.0"
+
 aurelia-bootstrapper@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/aurelia-bootstrapper/-/aurelia-bootstrapper-2.2.0.tgz#947e6244bf2ec9cd4aba8abb4b322dc6d629b65c"
@@ -609,11 +628,24 @@ aurelia-dependency-injection@^1.0.0, aurelia-dependency-injection@^1.2.0:
     aurelia-metadata "^1.0.0"
     aurelia-pal "^1.0.0"
 
+aurelia-dependency-injection@^1.5.0:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/aurelia-dependency-injection/-/aurelia-dependency-injection-1.5.2.tgz#a4a6aee8c3e480f11d84dba39fc6e615bf5f0469"
+  dependencies:
+    aurelia-metadata "^1.0.0"
+    aurelia-pal "^1.0.0"
+
 aurelia-event-aggregator@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/aurelia-event-aggregator/-/aurelia-event-aggregator-1.0.1.tgz#9d7c7c1e1efe1ef3a78785e76abe80601e2d34c8"
   dependencies:
     aurelia-logging "^1.0.0"
+
+aurelia-fetch-client@^1.3.1:
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/aurelia-fetch-client/-/aurelia-fetch-client-1.8.2.tgz#d1252500d06e8d5bccc3891a702c0c3184436d20"
+  dependencies:
+    aurelia-pal "^1.3.0"
 
 aurelia-framework@^1.0.0:
   version "1.1.5"
@@ -628,6 +660,20 @@ aurelia-framework@^1.0.0:
     aurelia-path "^1.0.0"
     aurelia-task-queue "^1.0.0"
     aurelia-templating "^1.0.0"
+
+aurelia-framework@^1.1.5:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/aurelia-framework/-/aurelia-framework-1.4.1.tgz#76a76dfa555e3315daab4256c776434fb7932f43"
+  dependencies:
+    aurelia-binding "^2.0.0"
+    aurelia-dependency-injection "^1.0.0"
+    aurelia-loader "^1.0.0"
+    aurelia-logging "^1.0.0"
+    aurelia-metadata "^1.0.0"
+    aurelia-pal "^1.0.0"
+    aurelia-path "^1.1.7"
+    aurelia-task-queue "^1.0.0"
+    aurelia-templating "^1.11.1"
 
 aurelia-history-browser@^1.1.0:
   version "1.1.1"
@@ -684,6 +730,21 @@ aurelia-logging@^1.0.0, aurelia-logging@^1.2.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/aurelia-logging/-/aurelia-logging-1.4.0.tgz#04fb7aa74015593f7a15b225beeba07b7d14dcd5"
 
+aurelia-logging@^1.5.0:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/aurelia-logging/-/aurelia-logging-1.5.2.tgz#eddacfeded5da39808d36fd916829dd8d4c88ddd"
+
+aurelia-materialize-bridge@^0.33.0:
+  version "0.33.2"
+  resolved "https://registry.yarnpkg.com/aurelia-materialize-bridge/-/aurelia-materialize-bridge-0.33.2.tgz#b8c0dc710fd80d8f7dc3efafc206f3299e304a26"
+  dependencies:
+    "@types/jquery" "^3.3.0"
+    aurelia-fetch-client "^1.3.1"
+    aurelia-framework "^1.1.5"
+    aurelia-router "^1.5.0"
+    aurelia-templating "^1.7.0"
+    aurelia-validation "^1.1.2"
+
 aurelia-metadata@^1.0.0, aurelia-metadata@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/aurelia-metadata/-/aurelia-metadata-1.0.3.tgz#1e8d59da188e2871a8ad749ba42ca85084a3f30e"
@@ -700,9 +761,17 @@ aurelia-pal@^1.0.0, aurelia-pal@^1.1.1, aurelia-pal@^1.3.0, aurelia-pal@^1.4.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/aurelia-pal/-/aurelia-pal-1.7.0.tgz#443fd75c72a0b3e1daa3181f655ea770a579dd88"
 
+aurelia-pal@^1.8.0:
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/aurelia-pal/-/aurelia-pal-1.8.2.tgz#9c39509ea2650291fa4bda06a4ed37d8be31f0ac"
+
 aurelia-path@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/aurelia-path/-/aurelia-path-1.1.1.tgz#caa9d20bc8515a5f9f286d9a3b18d81b2c85b0dd"
+
+aurelia-path@^1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/aurelia-path/-/aurelia-path-1.1.7.tgz#8eba50a45ca52dfbb3c65f0bf3a221c987602b58"
 
 aurelia-polyfills@^1.0.0, aurelia-polyfills@^1.3.0:
   version "1.3.0"
@@ -736,6 +805,12 @@ aurelia-router@^1.5.0:
 aurelia-task-queue@^1.0.0, aurelia-task-queue@^1.1.0:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/aurelia-task-queue/-/aurelia-task-queue-1.2.1.tgz#2e25c7cd663b7e3074f1d99744eb2d14ec5ce594"
+  dependencies:
+    aurelia-pal "^1.0.0"
+
+aurelia-task-queue@^1.3.1:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/aurelia-task-queue/-/aurelia-task-queue-1.3.3.tgz#f7f744bde4ffa3dddb5225bd0956a2fa53c139c5"
   dependencies:
     aurelia-pal "^1.0.0"
 
@@ -787,6 +862,19 @@ aurelia-templating@^1.0.0, aurelia-templating@^1.1.2, aurelia-templating@^1.3.0,
     aurelia-path "^1.0.0"
     aurelia-task-queue "^1.1.0"
 
+aurelia-templating@^1.11.1, aurelia-templating@^1.7.0, aurelia-templating@^1.9.0:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/aurelia-templating/-/aurelia-templating-1.11.1.tgz#661df6d9ff09ec280ccf0fc4a94b702fceff0b24"
+  dependencies:
+    aurelia-binding "^2.0.0"
+    aurelia-dependency-injection "^1.0.0"
+    aurelia-loader "^1.0.0"
+    aurelia-logging "^1.0.0"
+    aurelia-metadata "^1.0.0"
+    aurelia-pal "^1.0.0"
+    aurelia-path "^1.1.7"
+    aurelia-task-queue "^1.1.0"
+
 aurelia-testing@^1.0.0-beta.4.0.0:
   version "1.0.0-beta.4.0.0"
   resolved "https://registry.yarnpkg.com/aurelia-testing/-/aurelia-testing-1.0.0-beta.4.0.0.tgz#8814f3ef0abd175455a3ad221953e3a696df57f0"
@@ -803,6 +891,17 @@ aurelia-tools@^2.0.0:
   dependencies:
     breeze-dag "^0.1.0"
     through2 "^2.0.0"
+
+aurelia-validation@^1.1.2, aurelia-validation@^1.1.3:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/aurelia-validation/-/aurelia-validation-1.6.0.tgz#6c8e00aeaa90f677879a5fe1e520a65145c7e61c"
+  dependencies:
+    aurelia-binding "^2.5.2"
+    aurelia-dependency-injection "^1.5.0"
+    aurelia-logging "^1.5.0"
+    aurelia-pal "^1.8.0"
+    aurelia-task-queue "^1.3.1"
+    aurelia-templating "^1.9.0"
 
 aurelia-webpack-plugin@^3.0.0-rc.1:
   version "3.0.0-rc.1"
@@ -1687,6 +1786,10 @@ boom@5.x.x:
   dependencies:
     hoek "4.x.x"
 
+bootstrap@^4.0.0:
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.6.2.tgz#8e0cd61611728a5bf65a3a2b8d6ff6c77d5d7479"
+
 boxen@^1.2.1:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/boxen/-/boxen-1.3.0.tgz#55c6c39a8ba58d9c61ad22cd877532deb665a20b"
@@ -2521,7 +2624,7 @@ compressible@~2.0.13:
 
 compression@^1.5.2:
   version "1.7.2"
-  resolved "http://registry.npmjs.org/compression/-/compression-1.7.2.tgz#aaffbcd6aaf854b44ebb280353d5ad1651f59a69"
+  resolved "https://registry.npmjs.org/compression/-/compression-1.7.2.tgz#aaffbcd6aaf854b44ebb280353d5ad1651f59a69"
   dependencies:
     accepts "~1.3.4"
     bytes "3.0.0"
@@ -2975,7 +3078,7 @@ debug@~2.2.0:
   dependencies:
     ms "0.7.1"
 
-debuglog@*, debuglog@^1.0.1:
+debuglog@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/debuglog/-/debuglog-1.0.1.tgz#aa24ffb9ac3df9a2351837cfb2d279360cd78492"
 
@@ -3689,7 +3792,7 @@ event-emitter@~0.3.5:
 
 event-stream@~3.3.0:
   version "3.3.4"
-  resolved "http://registry.npmjs.org/event-stream/-/event-stream-3.3.4.tgz#4ab4c9a0f5a54db9338b4c34d86bfce8f4b35571"
+  resolved "https://registry.npmjs.org/event-stream/-/event-stream-3.3.4.tgz#4ab4c9a0f5a54db9338b4c34d86bfce8f4b35571"
   dependencies:
     duplexer "~0.1.1"
     from "~0"
@@ -4651,6 +4754,10 @@ gzip-size@^4.1.0:
     duplexer "^0.1.1"
     pify "^3.0.0"
 
+hammerjs@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/hammerjs/-/hammerjs-2.0.8.tgz#04ef77862cff2bb79d30f7692095930222bf60f1"
+
 handle-thing@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/handle-thing/-/handle-thing-1.2.5.tgz#fd7aad726bf1a5fd16dfc29b2f7a6601d27139c4"
@@ -5087,7 +5194,7 @@ import-local@^1.0.0:
     pkg-dir "^2.0.0"
     resolve-cwd "^2.0.0"
 
-imurmurhash@*, imurmurhash@^0.1.4:
+imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
 
@@ -5898,6 +6005,10 @@ joi@^9.2.0:
     moment "2.x.x"
     topo "2.x.x"
 
+"jquery@^3.0.0 || ^2.1.4":
+  version "3.6.3"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.3.tgz#23ed2ffed8a19e048814f13391a19afcdba160e6"
+
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.4.3.tgz#2e545ec2b0f2957f41356510205214e98fad6582"
@@ -6406,10 +6517,6 @@ lockfile@~1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/lockfile/-/lockfile-1.0.3.tgz#2638fc39a0331e9cac1a04b71799931c9c50df79"
 
-lodash._baseindexof@*:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/lodash._baseindexof/-/lodash._baseindexof-3.1.0.tgz#fe52b53a1c6761e42618d654e4a25789ed61822c"
-
 lodash._baseuniq@~4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash._baseuniq/-/lodash._baseuniq-4.6.0.tgz#0ebb44e456814af7905c6212fa2c9b2d51b841e8"
@@ -6417,27 +6524,9 @@ lodash._baseuniq@~4.6.0:
     lodash._createset "~4.0.0"
     lodash._root "~3.0.0"
 
-lodash._bindcallback@*:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/lodash._bindcallback/-/lodash._bindcallback-3.0.1.tgz#e531c27644cf8b57a99e17ed95b35c748789392e"
-
-lodash._cacheindexof@*:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/lodash._cacheindexof/-/lodash._cacheindexof-3.0.2.tgz#3dc69ac82498d2ee5e3ce56091bafd2adc7bde92"
-
-lodash._createcache@*:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/lodash._createcache/-/lodash._createcache-3.1.2.tgz#56d6a064017625e79ebca6b8018e17440bdcf093"
-  dependencies:
-    lodash._getnative "^3.0.0"
-
 lodash._createset@~4.0.0:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/lodash._createset/-/lodash._createset-4.0.3.tgz#0f4659fbb09d75194fa9e2b88a6644d363c9fe26"
-
-lodash._getnative@*, lodash._getnative@^3.0.0:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/lodash._getnative/-/lodash._getnative-3.9.1.tgz#570bc7dede46d61cdcde687d65d3eecbaa3aaff5"
 
 lodash._root@~3.0.0:
   version "3.0.1"
@@ -6466,10 +6555,6 @@ lodash.memoize@~3.0.3:
 lodash.mergewith@^4.6.0:
   version "4.6.1"
   resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.1.tgz#639057e726c3afbdb3e7d42741caa8d6e4335927"
-
-lodash.restparam@*:
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/lodash.restparam/-/lodash.restparam-3.6.1.tgz#936a4e309ef330a7645ed4145986c85ae5b20805"
 
 lodash.tail@^4.1.1:
   version "4.1.1"
@@ -6672,6 +6757,13 @@ matchdep@^2.0.0:
     micromatch "^3.0.4"
     resolve "^1.4.0"
     stack-trace "0.0.10"
+
+materialize-css@^0.100.2:
+  version "0.100.2"
+  resolved "https://registry.yarnpkg.com/materialize-css/-/materialize-css-0.100.2.tgz#9ca32b24904c9a04491fc7d0a2e9402e7b1dae07"
+  dependencies:
+    hammerjs "^2.0.8"
+    jquery "^3.0.0 || ^2.1.4"
 
 math-expression-evaluator@^1.2.14:
   version "1.2.17"
@@ -7679,7 +7771,7 @@ once@1.x, once@^1.3.0, once@^1.3.1, once@^1.3.2, once@^1.3.3, once@^1.4.0, once@
 
 onetime@^1.0.0:
   version "1.1.0"
-  resolved "http://registry.npmjs.org/onetime/-/onetime-1.1.0.tgz#a1f7838f8314c516f05ecefcbc4ccfe04b4ed789"
+  resolved "https://registry.npmjs.org/onetime/-/onetime-1.1.0.tgz#a1f7838f8314c516f05ecefcbc4ccfe04b4ed789"
 
 onetime@^2.0.0:
   version "2.0.1"
@@ -8854,7 +8946,7 @@ readable-stream@~2.0.0, readable-stream@~2.0.5, readable-stream@~2.0.6:
     string_decoder "~0.10.x"
     util-deprecate "~1.0.1"
 
-readdir-scoped-modules@*, readdir-scoped-modules@^1.0.0:
+readdir-scoped-modules@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/readdir-scoped-modules/-/readdir-scoped-modules-1.0.2.tgz#9fafa37d286be5d92cbaebdee030dc9b5f406747"
   dependencies:
@@ -10882,7 +10974,7 @@ v8flags@^3.0.1:
   dependencies:
     homedir-polyfill "^1.0.1"
 
-validate-npm-package-license@*, validate-npm-package-license@^3.0.1:
+validate-npm-package-license@^3.0.1:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/validate-npm-package-license/-/validate-npm-package-license-3.0.3.tgz#81643bcbef1bdfecd4623793dc4648948ba98338"
   dependencies:
