@@ -19,7 +19,7 @@
   "peerDependencies": {},
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.19",
-    "aurelia-cli": "^0.33.0",
+    "aurelia-cli": "^3.0.1",
     "aurelia-testing": "^1.0.0-beta.4.0.0",
     "aurelia-tools": "^2.0.0",
     "gulp": "github:gulpjs/gulp#4.0",
@@ -67,7 +67,7 @@
     "extract-text-webpack-plugin": "next",
     "aurelia-webpack-plugin": "^3.0.0-rc.1",
     "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.12",
+    "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^3.1.1",
     "expose-loader": "^0.7.5",
     "style-loader": "^0.20.3",
